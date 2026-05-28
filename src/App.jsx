@@ -22,13 +22,13 @@ function App() {
     <div className="min-h-screen relative transition-colors duration-500 bg-surface-bright dark:bg-dark-bg overflow-hidden">
       
       {/* Background Elements */}
-      <div className="fixed inset-0 z-0 bg-grid-pattern opacity-100 pointer-events-none"></div>
+      <div className="fixed inset-0 z-0 bg-grid-pattern opacity-50 pointer-events-none"></div>
       
       {/* Radial Gradient Glows */}
-      <div className="fixed top-[-20%] left-[-10%] w-[50%] h-[50%] bg-primary/20 dark:bg-primary/10 rounded-full blur-[120px] pointer-events-none z-0"></div>
-      <div className="fixed bottom-[-20%] right-[-10%] w-[50%] h-[50%] bg-accent-purple/20 dark:bg-accent-purple/10 rounded-full blur-[120px] pointer-events-none z-0"></div>
+      <div className="fixed top-[-20%] left-[-10%] w-[50%] h-[50%] bg-primary/10 dark:bg-primary/5 rounded-full blur-[160px] pointer-events-none z-0"></div>
+      <div className="fixed bottom-[-20%] right-[-10%] w-[50%] h-[50%] bg-accent-purple/10 dark:bg-accent-purple/5 rounded-full blur-[160px] pointer-events-none z-0"></div>
 
-      <div className="relative z-10 py-12 md:py-20 flex flex-col items-center">
+      <div className="relative z-10 py-16 md:py-24 flex flex-col items-center">
         {/* Theme Toggle */}
         <button 
           onClick={() => setDarkMode(!darkMode)}
@@ -42,7 +42,7 @@ function App() {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, ease: "easeOut" }}
-          className="max-w-2xl mx-auto px-6 w-full flex flex-col gap-10"
+          className="max-w-2xl mx-auto px-6 w-full flex flex-col gap-12"
         >
           <Header />
           <BusinessCard />
