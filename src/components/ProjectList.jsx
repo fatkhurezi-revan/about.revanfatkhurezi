@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { FiLightbulb, FiArrowRight, FiCode, FiBriefcase } from 'react-icons/fi';
+import { FiZap, FiArrowRight, FiCode, FiBriefcase } from 'react-icons/fi';
 
 const ProjectList = () => {
   return (
@@ -26,7 +26,7 @@ const ProjectList = () => {
           <div className="flex items-center justify-between w-full">
             <div className="flex items-center gap-4">
               <div className="w-12 h-12 rounded-xl bg-surface-bright dark:bg-dark-bg border border-border-subtle dark:border-dark-border flex items-center justify-center text-primary flex-shrink-0 transition-colors duration-300 group-hover:bg-primary/10 group-hover:border-primary/20">
-                <FiLightbulb className="w-6 h-6" />
+                <FiZap className="w-6 h-6" />
               </div>
               <h3 className="text-lg font-semibold text-on-surface dark:text-dark-on-surface">
                 RevAI
