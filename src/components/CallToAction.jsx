@@ -17,6 +17,7 @@ const CallToAction = () => {
         </h3>
         <p className="text-base text-on-surface-variant dark:text-dark-on-surface-variant max-w-lg relative z-10 leading-relaxed">
           Jangan ragu buat konsultasikan kebutuhan kamu. Yuk kita obrolin dan cari solusi terbaiknya langsung via WhatsApp.
+        </p>
         <a 
           href="https://wa.me/6281290018819?text=Halo%20Revan,%20saya%20melihat%20portofolio%20Anda%20dan%20tertarik%20untuk%20berdiskusi..."
           target="_blank"
