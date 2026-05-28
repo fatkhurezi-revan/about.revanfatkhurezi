@@ -40,7 +40,7 @@ const BusinessCard = () => {
           rel="noopener noreferrer"
           className="bg-primary hover:bg-primary-hover text-surface-white font-semibold py-3 px-6 rounded-full w-full flex items-center justify-center gap-2 transition-colors shadow-sm mt-2"
         >
-          <span>Kunjungi Website RevTech</span>
+          <span>Kunjungi Website</span>
           <FiArrowUpRight className="text-lg" />
         </a>
       </div>
