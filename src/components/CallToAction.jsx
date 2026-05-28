@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import { FaWhatsapp } from 'react-icons/fa';
 
 const CallToAction = () => {
   return (
@@ -22,8 +23,9 @@ const CallToAction = () => {
           href="https://wa.me/6281290018819?text=Halo%20Revan,%20saya%20melihat%20portofolio%20Anda%20dan%20tertarik%20untuk%20berdiskusi..."
           target="_blank"
           rel="noopener noreferrer"
-          className="bg-primary hover:bg-primary-hover text-surface-white font-semibold py-4 px-10 rounded-full flex items-center justify-center gap-2 transition-all shadow-[0_0_20px_rgba(59,130,246,0.4)] hover:shadow-[0_0_30px_rgba(59,130,246,0.6)] w-full sm:w-auto mt-4 relative z-10"
+          className="bg-primary hover:bg-primary-hover text-surface-white font-semibold py-4 px-10 rounded-full flex items-center justify-center gap-3 transition-all shadow-[0_0_20px_rgba(59,130,246,0.4)] hover:shadow-[0_0_30px_rgba(59,130,246,0.6)] w-full sm:w-auto mt-4 relative z-10"
         >
+          <FaWhatsapp className="w-5 h-5" />
           <span>Diskusikan Sekarang</span>
         </a>
       </div>
