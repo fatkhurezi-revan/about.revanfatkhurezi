@@ -22,7 +22,7 @@ const BusinessCard = () => {
           <h3 className="text-xl font-bold text-on-surface dark:text-dark-on-surface">RevTech</h3>
           <p className="text-sm font-medium text-outline dark:text-dark-on-surface-variant">🌟 Fast & Reliable | 🟢 Available for Hire</p>
           <p className="text-sm text-on-surface-variant dark:text-dark-on-surface-variant leading-relaxed mt-4 max-w-lg">
-            Bikin kebutuhan digital jadi lebih mudah dan profesional!
+            Bantu wujudkan kebutuhan digitalmu dengan solusi yang modern dan profesional!
           </p>
         </div>
         
